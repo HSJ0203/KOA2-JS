@@ -1,0 +1,33 @@
+{
+  "name": "koa2-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app.js",
+    "dev": "cross-env NODE_ENV=development nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^4.17.3",
+    "knex": "^0.21.1",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^5.2.0",
+    "koa-log4": "^2.3.2",
+    "koa-multer": "^1.0.2",
+    "koa-response-handler": "^2.1.0",
+    "koa-router": "^9.0.1",
+    "koa-session": "^6.0.0",
+    "moment": "^2.27.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.13"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}

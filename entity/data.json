@@ -1,0 +1,15 @@
+{
+  "name": "data",
+  "columns": [
+    {
+      "name": "name",
+      "type": "string",
+      "notNullable":true,
+      "length":200
+    },
+    {
+      "name": "age",
+      "type": "integer"
+    }
+  ]
+}
